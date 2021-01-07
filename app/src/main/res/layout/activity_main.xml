@@ -10,30 +10,41 @@
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:gravity="center"
+        android:padding="20dp"
         android:orientation="vertical">
 
         <TextView
-
-             android:id="@+id/textView"
+            android:id="@+id/textView3"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="TextView" />
-
-
+            android:text="Activity One" />
 
         <EditText
-            android:id="@+id/inputText"
-            android:layout_width="wrap_content"
+            android:id="@+id/editText2"
+            android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:ems="10"
             android:inputType="textPersonName"
             android:hint="Name" />
 
-        <Button
-            android:layout_marginTop="10dp"
-            android:id="@+id/btnSumbit"
-            android:layout_width="wrap_content"
+
+        <EditText
+            android:id="@+id/editText1"
+            android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:ems="10"
+            android:hint="Name"
+            android:inputType="textPersonName" />
+
+        <Button
+            android:id="@+id/btnSumbit"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
             android:text="Submit" />
+
+
+
+
     </androidx.appcompat.widget.LinearLayoutCompat>
 </androidx.coordinatorlayout.widget.CoordinatorLayout>
